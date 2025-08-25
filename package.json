@@ -1,0 +1,10 @@
+{
+  "name": "happy-birthday-ha",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "^4.5.0"
+  }
+}
