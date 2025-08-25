@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // nếu dùng React
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/happy-birthday-ha/', // Tên repo trên GitHub
   plugins: [react()],
-  base: '/happy-birthday-ha/',  // 👈 tên repo GitHub Pages
 })
